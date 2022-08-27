@@ -31,46 +31,47 @@ button{
     height: 30px;
     position: absolute;
     top: 123px;
+    left: 125px;
 }
 
 .likeicon{
-    width: 26px;
-    height: 26px;
+    width: 18px;
+    height: 15px;
     position: absolute;
-    top: 160px;
+    top: 438px;
     left: 125px;
 }
 
 .commenticon{
-    width: 26px;
-    height: 26px;
+    width: 15px;
+    height: 15px;
     position: absolute;
-    top: 160px;
-    left: 125px;
+    top: 438px;
+    left: 160px;
 }
 
 .shareicon{
-    width: 26px;
-    height: 26px;
+    width: 18px;
+    height: 15px;
     position: absolute;
-    top: 160px;
-    left: 125px;
+    top: 438px;
+    left: 190px;
 }
 
 .saveicon{
-    width: 26px;
-    height: 26px;
+    width: 15px;
+    height: 15px;
     position: absolute;
-    top: 160px;
-    left: 125px;
+    top: 438px;
+    left: 385px;
 }
 
 .settingsicon{
-    width: 26px;
-    height: 7px;
+    width: 15px;
+    height: 4px;
     position: absolute;
-    top: 160px;
-    left: 125px;
+    top: 135px;
+    left: 385px;
 }
 
 .nickname{

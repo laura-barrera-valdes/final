@@ -1,7 +1,13 @@
 class Post extends HTMLElement {
 
-    static get observedAtributes(){
-        return ['profph', 'nickname', 'post', 'views', 'descr', 'comments', 'date']
+    constructor(){
+        super(); 
+        this.attachShadow({mode: 'open' })
+    }
+
+    connectedCallback() {
+        console.log(this.nickname);
+        this.render()
     }
 
     attributeChangedCallback(propName, oldValue, newValue) {
@@ -9,13 +15,8 @@ class Post extends HTMLElement {
         this.render();
     }
 
-    constructor(){
-        super();
-        this.attachShadow({mode: 'open' })
-    }
-
-    connectedCallback() {
-        this.render()
+    static get observedAttributes(){
+        return ['profph', 'nickname', 'post', 'views', 'descr', 'comments', 'date']
     }
 
     render(){
@@ -25,7 +26,7 @@ class Post extends HTMLElement {
         <image class="mypost" src="${this.post}"></image>
         <image class="profph" src="${this.profph}"></image>
         <image class="likeicon" src="./assets/Like-icon-off.png"></image>
-        <image class="commentsicon" src="./assets/Comment-icon.png"></image>
+        <image class="commenticon" src="./assets/Comment-icon.png"></image>
         <image class="shareicon" src="./assets/Share-icon.png"></image>
         <image class="saveicon" src="./assets/Save-icon.png"></image>
         <image class="settingsicon" src="./assets/Settings-icon.png"></image>

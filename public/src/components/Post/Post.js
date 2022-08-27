@@ -30,7 +30,8 @@ class Post extends HTMLElement {
         <image class="shareicon" src="./assets/Share-icon.png"></image>
         <image class="saveicon" src="./assets/Save-icon.png"></image>
         <image class="settingsicon" src="./assets/Settings-icon.png"></image>
-        <h1 class="nickname">"${this.nickname}"</h1>
+        <h1 class="nickname">${this.nickname}</h1>
+        <h1 class="nicknamedescr">${this.nickname}</h1>
         <h1 class="views">${this.views}</h1>
         <h1 class="descr">${this.descr}</h1>
         <h1 class="comments">${this.comments}</h1>

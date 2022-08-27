@@ -68,7 +68,7 @@ button{
 
 .settingsicon{
     width: 15px;
-    height: 4px;
+    height: 3px;
     position: absolute;
     top: 135px;
     left: 385px;
@@ -79,8 +79,8 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 150px;
-    left: 300px;
+    top: 123px;
+    left: 162px;
 }
 
 .views{
@@ -88,7 +88,16 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 170px;
+    top: 450px;
+    left: 123px;
+}
+
+.nicknamedescr{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 470px;
     left: 123px;
 }
 
@@ -96,26 +105,27 @@ button{
     color: black;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     position: absolute;
-    top: 190px;
-    left: 123px;
+    top: 470px;
+    left: 215px;
 }
 
 .comments{
-    color: black;
-    font-size: 12px;
+    color: gray;
+    font-size: 10px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 200px;
+    top: 492px;
     left: 123px;
 }
 
 .date{
-    color: black;
-    font-size: 9px;
+    color: gray;
+    font-size: 8px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 250px;
+    top: 510px;
     left: 123px;
 }
 

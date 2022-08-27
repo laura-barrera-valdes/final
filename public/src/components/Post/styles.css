@@ -17,3 +17,108 @@ button{
     box-shadow: 6px 4px 37px -8px rgba(0,0,0,0.75);
     margin: 100px;
 }
+
+.mypost{
+    width: 276px;
+    height: 265px;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+
+.profph{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 123px;
+}
+
+.likeicon{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+
+.commenticon{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+
+.shareicon{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+
+.saveicon{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+
+.settingsicon{
+    width: 26px;
+    height: 7px;
+    position: absolute;
+    top: 160px;
+    left: 125px;
+}
+
+.nickname{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.views{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 123px;
+}
+
+.descr{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 190px;
+    left: 123px;
+}
+
+.comments{
+    color: black;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 123px;
+}
+
+.date{
+    color: black;
+    font-size: 9px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 123px;
+}
+
+/*
+top entre > sea top, más baja
+left mueve a la der
+*/

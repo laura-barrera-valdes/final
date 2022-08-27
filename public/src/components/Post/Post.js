@@ -1,7 +1,7 @@
 class Post extends HTMLElement {
 
     static get observedAtributes(){
-        return ['name', 'prof-ph', 'post', 'views', 'descr', 'date', 'comments']
+        return ['profph', 'nickname', 'post', 'views', 'descr', 'comments', 'date']
     }
 
     attributeChangedCallback(propName, oldValue, newValue) {
@@ -22,7 +22,18 @@ class Post extends HTMLElement {
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="/src/components/Post/styles.css"
         <section class="cuadro">
-            
+        <image class="mypost" src="${this.post}"></image>
+        <image class="profph" src="${this.profph}"></image>
+        <image class="likeicon" src="./assets/Like-icon-off.png"></image>
+        <image class="commentsicon" src="./assets/Comment-icon.png"></image>
+        <image class="shareicon" src="./assets/Share-icon.png"></image>
+        <image class="saveicon" src="./assets/Save-icon.png"></image>
+        <image class="settingsicon" src="./assets/Settings-icon.png"></image>
+        <h1 class="nickname">"${this.nickname}"</h1>
+        <h1 class="views">${this.views}</h1>
+        <h1 class="descr">${this.descr}</h1>
+        <h1 class="comments">${this.comments}</h1>
+        <h1 class="date">${this.date}</h1>
         </section>` 
     }
 }

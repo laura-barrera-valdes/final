@@ -12,7 +12,15 @@ class PostContainer extends HTMLElement{
 
     render(){ /*  */
         this.shadowRoot.innerHTML = `
-        <my-post></my-post>
+        <my-post
+        profph="./assets/Profile-Photo.png"
+        nickname="mofi_bizcocha"
+        post="./assets/Mofi.png"
+        views="2m views"
+        descr="Soy pefeta"
+        comments="View all 10k comments"
+        date="now" 
+        ></my-post>
         `
     } 
 }

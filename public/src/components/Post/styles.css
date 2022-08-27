@@ -1,0 +1,19 @@
+/*el styles.css va dentro de la carpeta que quiero embellecer xD*/
+/*button es una etiqueta de html*/
+/*color: white;*/ /*este es el color del boton, lo usaria si el boton no tuviera imagen*/
+/*background-color:;*/ /*este es el color del fondo del boton*/
+/*
+button{
+    width: 26px;
+    height: 26px;
+}*/
+
+.cuadro{
+    display: flex;
+    color: white;
+    position: absolute;
+    width: 310px;
+    height: 470px;
+    box-shadow: 6px 4px 37px -8px rgba(0,0,0,0.75);
+    margin: 100px;
+}

@@ -8,6 +8,9 @@ button{
     height: 26px;
 }*/
 
+
+/* css del cuadro del post */
+
 .cuadro{
     display: flex;
     color: white;
@@ -17,6 +20,8 @@ button{
     box-shadow: 6px 4px 37px -8px rgba(0,0,0,0.75);
     margin: 100px;
 }
+
+/* css de img*/
 
 .mypost{
     width: 276px;
@@ -74,6 +79,8 @@ button{
     left: 385px;
 }
 
+/* css de textos */
+
 .nickname{
     color: black;
     font-size: 12px;
@@ -83,13 +90,22 @@ button{
     left: 162px;
 }
 
-.views{
+.likes{
     color: black;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 450px;
     left: 123px;
+}
+
+.views{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 200px;
 }
 
 .nicknamedescr{

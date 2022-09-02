@@ -16,7 +16,7 @@ class Post extends HTMLElement {
     }
 
     static get observedAttributes(){
-        return ['profph', 'nickname', 'post', 'views', 'descr', 'comments', 'date']
+        return ['profph', 'nickname', 'post', 'likes', 'views', 'descr', 'comments', 'date']
     }
 
     render(){
@@ -25,17 +25,18 @@ class Post extends HTMLElement {
         <section class="cuadro">
         <image class="mypost" src="${this.post}"></image>
         <image class="profph" src="${this.profph}"></image>
-        <image class="likeicon" src="./assets/Like-icon-off.png"></image>
-        <image class="commenticon" src="./assets/Comment-icon.png"></image>
-        <image class="shareicon" src="./assets/Share-icon.png"></image>
-        <image class="saveicon" src="./assets/Save-icon.png"></image>
-        <image class="settingsicon" src="./assets/Settings-icon.png"></image>
+        <image class="likeicon" src="./assets/icons/Like-icon-off.png"></image>
+        <image class="commenticon" src="./assets/icons/Comment-icon.png"></image>
+        <image class="shareicon" src="./assets/icons/Share-icon.png"></image>
+        <image class="saveicon" src="./assets/icons/Save-icon.png"></image>
+        <image class="settingsicon" src="./assets/icons/Settings-icon.png"></image>
         <h1 class="nickname">${this.nickname}</h1>
-        <h1 class="nicknamedescr">${this.nickname}</h1>
-        <h1 class="views">${this.views}</h1>
-        <h1 class="descr">${this.descr}</h1>
-        <h1 class="comments">${this.comments}</h1>
-        <h1 class="date">${this.date}</h1>
+        <h2 class="nicknamedescr">${this.nickname}</h2>
+        <h2 class="likes">${this.likes}</h2>
+        <h2 class="views">${this.views}</h2>
+        <h2 class="descr">${this.descr}</h2>
+        <h3 class="comments">${this.comments}</h3>
+        <h4 class="date">${this.date}</h4>
         </section>` 
     }
 }

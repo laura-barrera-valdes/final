@@ -10,19 +10,20 @@ class PostContainer extends HTMLElement{
         this.render();
     }
 
-    render(){ /*  */
+    render(){ /* likes= "${contar_likes} me gusta" */
         this.shadowRoot.innerHTML = `
         <my-post
-        profph="./assets/Profile-Photo.png"
+        profph="./assets/id1/Profile-Image.png"
         nickname="mofi_bizcocha"
-        post="./assets/Mofi.png"
-        views="2m views"
+        post="./assets/id1/Post-Image.png"
+        likes="2 me gusta"
+        views="11.000 vistas"
         descr="Soy pefeta"
-        comments="View all 10k comments"
-        date="now" 
+        comments="Ver los 10.992 comentarios"
+        date="Hace 10 segundos" 
         ></my-post>
         `
-    } 
+    }
 }
 
 customElements.define('post-continer', PostContainer);

@@ -1,4 +1,6 @@
 import * as components from "./components/index.js"
+import data from '../data.js'
+import "./components/Contador/Contador.js"
 
 class PostContainer extends HTMLElement{
     constructor(){
@@ -16,8 +18,8 @@ class PostContainer extends HTMLElement{
         profph="./assets/id1/Profile-Image.png"
         nickname="mofi_bizcocha"
         post="./assets/id1/Post-Image.png"
-        likes="2 me gusta"
-        views="11.000 vistas"
+        likes="2.000 Me gusta"
+        views="11.000 Vistas"
         descr="Soy pefeta"
         comments="Ver los 10.992 comentarios"
         date="Hace 10 segundos" 

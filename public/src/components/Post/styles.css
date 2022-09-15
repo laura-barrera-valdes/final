@@ -23,7 +23,18 @@ button{
     position: relative;
     width: 310px;
     height: 470px;
-    box-shadow: 6px 4px 37px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    margin: 15px;
+}
+
+.div1{
+    display: flex;
+}
+
+.buton_settings{
+    background-color: white;
+    color: none;
+    border: none;
 }
 
 /* css de img*/
@@ -41,8 +52,7 @@ button{
 }
 
 .thepost{
-    width: 276px;
-    height: 265px;
+    width: 100%;
     position: relative;
 }
 

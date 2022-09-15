@@ -29,8 +29,17 @@ class Post extends HTMLElement {
                 <div class="div1">
                 <image class="profph" src="${this.profph}"></image>
                 <h1 class="nickname">${this.nickname}</h1>
-                <image class="settingsicon" src="./assets/icons/Settings-icon.png"></image>
+                
+                    <div class="div1_1">
+                        <button class="buton_settings">
+                            <div class="imag_boton_settings">
+                            <image class="settingsicon" src="./assets/icons/Settings-icon.png"></image>
+                            </div>
+                        </button>
+                    </div>
+
                 </div>
+
 
                 <div class="div2">
                 <image class="thepost" src="${this.post}"></image>
@@ -57,7 +66,7 @@ class Post extends HTMLElement {
                 <h3 class="comments">${this.comments}</h3>
                 <h4 class="date">${this.date}</h4>
                 </div>
-                
+
             </div>
 
         </section>` 

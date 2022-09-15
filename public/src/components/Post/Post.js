@@ -27,10 +27,13 @@ class Post extends HTMLElement {
             <div class="vertical">
             
                 <div class="div1">
-                <image class="profph" src="${this.profph}"></image>
-                <h1 class="nickname">${this.nickname}</h1>
-                
+
                     <div class="div1_1">
+                        <image class="profph" src="${this.profph}"></image>
+                        <h1 class="nickname">${this.nickname}</h1>
+                    </div>
+
+                    <div class="div1_2">
                         <button class="buton_settings">
                             <div class="imag_boton_settings">
                             <image class="settingsicon" src="./assets/icons/Settings-icon.png"></image>

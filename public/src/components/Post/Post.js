@@ -21,7 +21,7 @@ class Post extends HTMLElement {
 
     render(){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="/src/components/Post/styles.css"
+        <link rel="stylesheet" href="/src/components/Post/styles.css">
         <section class="cuadro">
         <image class="mypost" src="${this.post}"></image>
         <image class="profph" src="${this.profph}"></image>

@@ -11,6 +11,12 @@ button{
 
 /* css del cuadro del post */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .cuadro{
     display: flex;
     color: white;
@@ -18,7 +24,6 @@ button{
     width: 310px;
     height: 470px;
     box-shadow: 6px 4px 37px -8px rgba(0,0,0,0.75);
-    margin: 100px;
 }
 
 /* css de img*/

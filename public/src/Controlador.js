@@ -13,7 +13,19 @@ class PostContainer extends HTMLElement{
 
     render(){ /* likes= "${contar_likes} me gusta" */
         const compts = data.map (({profph, nickname, post, likes, views, descr, comments, date}) =>
-        `<my-post
+        `<my-bar-shorcuts>
+
+        </my-bar-shorcuts>
+        
+        <my-bar-status>
+
+        </my-bar-status>
+
+        <my-bar-info>
+
+        </my-bar-info>
+        
+        <my-post
         profph="${profph}"
         nickname="${nickname}"
         post="${post}"
@@ -27,4 +39,4 @@ class PostContainer extends HTMLElement{
     }
 }
 
-customElements.define('post-continer', PostContainer);
+customElements.define('post-container', PostContainer);

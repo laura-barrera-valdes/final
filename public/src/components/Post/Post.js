@@ -46,10 +46,15 @@ class Post extends HTMLElement {
                 </div>
 
                 <div class="div3">
-                <image class="likeicon" src="./assets/icons/Like-icon-off.png"></image>
-                <image class="commenticon" src="./assets/icons/Comment-icon.png"></image>
-                <image class="shareicon" src="./assets/icons/Share-icon.png"></image>
-                <image class="saveicon" src="./assets/icons/Save-icon.png"></image>
+                    <div class="div_izq">
+                        <image class="likeicon" src="./assets/icons/Like-icon-off.png"></image>
+                        <image class="commenticon" src="./assets/icons/Comment-icon.png"></image>
+                        <image class="shareicon" src="./assets/icons/Share-icon.png"></image>
+                    </div>
+
+                    <div class="div_der">
+                        <image class="saveicon" src="./assets/icons/Save-icon.png"></image>
+                    </div>
                 </div>
 
                 <div class="div4">

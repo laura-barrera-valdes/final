@@ -56,28 +56,40 @@ button{
     position: relative;
 }
 
+.div3{
+    display: flex;
+    margin: 0px 0px 0px;
+    padding: 2px 12px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .likeicon{
     width: 18px;
     height: 15px;
     position: relative;
+    padding: 2px;
 }
 
 .commenticon{
     width: 15px;
     height: 15px;
     position: relative;
+    padding: 2px;
 }
 
 .shareicon{
     width: 18px;
     height: 15px;
     position: relative;
+    padding: 2px;
 }
 
 .saveicon{
     width: 15px;
     height: 15px;
     position: relative;
+    padding: 2px;
 }
 
 /* css de textos */

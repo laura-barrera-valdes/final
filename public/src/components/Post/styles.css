@@ -14,7 +14,7 @@ button{
 .cuadro{
     display: flex;
     color: white;
-    position: absolute;
+    position: relative;
     width: 310px;
     height: 470px;
     box-shadow: 6px 4px 37px -8px rgba(0,0,0,0.75);
@@ -26,7 +26,7 @@ button{
 .profph{
     width: 30px;
     height: 30px;
-    position: absolute;
+    position: relative;
     top: 23px;
     left: 17px;
 }
@@ -34,7 +34,7 @@ button{
 .settingsicon{
     width: 15px;
     height: 3px;
-    position: absolute;
+    position: relative;
     top: 35px;
     left: 278px;
 }
@@ -42,7 +42,7 @@ button{
 .thepost{
     width: 276px;
     height: 265px;
-    position: absolute;
+    position: relative;
     top: 60px;
     left: 17px;
 }
@@ -50,7 +50,7 @@ button{
 .likeicon{
     width: 18px;
     height: 15px;
-    position: absolute;
+    position: relative;
     top: 338px;
     left: 17px;
 }
@@ -58,7 +58,7 @@ button{
 .commenticon{
     width: 15px;
     height: 15px;
-    position: absolute;
+    position: relative;
     top: 338px;
     left: 52px;
 }
@@ -66,7 +66,7 @@ button{
 .shareicon{
     width: 18px;
     height: 15px;
-    position: absolute;
+    position: relative;
     top: 338px;
     left: 82px;
 }
@@ -74,7 +74,7 @@ button{
 .saveicon{
     width: 15px;
     height: 15px;
-    position: absolute;
+    position: relative;
     top: 338px;
     left: 278px;
 }
@@ -85,7 +85,7 @@ button{
     color: black;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
     top: 23px;
     left: 54px;
 }
@@ -94,7 +94,7 @@ button{
     color: black;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
     top: 350px;
     left: 15px;
 }
@@ -103,7 +103,7 @@ button{
     color: gray;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
     top: 350px;
     left: 112px;
 }
@@ -112,7 +112,7 @@ button{
     color: black;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
     top: 370px;
     left: 15px;
 }
@@ -122,7 +122,7 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    position: absolute;
+    position: relative;
     top: 370px;
     left: 107px;
 }
@@ -131,7 +131,7 @@ button{
     color: gray;
     font-size: 10px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
     top: 392px;
     left: 15px;
 }
@@ -140,7 +140,7 @@ button{
     color: gray;
     font-size: 8px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    position: relative;
     top: 410px;
     left: 15px;
 }

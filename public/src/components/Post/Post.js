@@ -23,7 +23,7 @@ class Post extends HTMLElement {
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="/src/components/Post/styles.css">
         <section class="cuadro">
-        <image class="mypost" src="${this.post}"></image>
+        <image class="thepost" src="${this.post}"></image>
         <image class="profph" src="${this.profph}"></image>
         <image class="likeicon" src="./assets/icons/Like-icon-off.png"></image>
         <image class="commenticon" src="./assets/icons/Comment-icon.png"></image>

@@ -23,60 +23,60 @@ button{
 
 /* css de img*/
 
-.mypost{
-    width: 276px;
-    height: 265px;
-    position: absolute;
-    top: 160px;
-    left: 125px;
-}
-
 .profph{
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 123px;
-    left: 125px;
-}
-
-.likeicon{
-    width: 18px;
-    height: 15px;
-    position: absolute;
-    top: 438px;
-    left: 125px;
-}
-
-.commenticon{
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 438px;
-    left: 160px;
-}
-
-.shareicon{
-    width: 18px;
-    height: 15px;
-    position: absolute;
-    top: 438px;
-    left: 190px;
-}
-
-.saveicon{
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 438px;
-    left: 385px;
+    top: 23px;
+    left: 17px;
 }
 
 .settingsicon{
     width: 15px;
     height: 3px;
     position: absolute;
-    top: 135px;
-    left: 385px;
+    top: 35px;
+    left: 278px;
+}
+
+.thepost{
+    width: 276px;
+    height: 265px;
+    position: absolute;
+    top: 60px;
+    left: 17px;
+}
+
+.likeicon{
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    top: 338px;
+    left: 17px;
+}
+
+.commenticon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 338px;
+    left: 52px;
+}
+
+.shareicon{
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    top: 338px;
+    left: 82px;
+}
+
+.saveicon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 338px;
+    left: 278px;
 }
 
 /* css de textos */
@@ -86,8 +86,8 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 123px;
-    left: 162px;
+    top: 23px;
+    left: 54px;
 }
 
 .likes{
@@ -95,8 +95,8 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 450px;
-    left: 123px;
+    top: 350px;
+    left: 15px;
 }
 
 .views{
@@ -104,8 +104,8 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 450px;
-    left: 220px;
+    top: 350px;
+    left: 112px;
 }
 
 .nicknamedescr{
@@ -113,8 +113,8 @@ button{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 470px;
-    left: 123px;
+    top: 370px;
+    left: 15px;
 }
 
 .descr{
@@ -123,8 +123,8 @@ button{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     position: absolute;
-    top: 470px;
-    left: 215px;
+    top: 370px;
+    left: 107px;
 }
 
 .comments{
@@ -132,8 +132,8 @@ button{
     font-size: 10px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 492px;
-    left: 123px;
+    top: 392px;
+    left: 15px;
 }
 
 .date{
@@ -141,8 +141,8 @@ button{
     font-size: 8px;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 510px;
-    left: 123px;
+    top: 410px;
+    left: 15px;
 }
 
 /*

@@ -1,0 +1,10 @@
+.colder{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navizq{
+    width: 183px;
+}

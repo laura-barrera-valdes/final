@@ -11,10 +11,19 @@ class PostContainer extends HTMLElement{
         this.render();
     }
 
-    render(){ /* likes= "${contar_likes} me gusta" */
-        const compts = data.map (({profph, nickname, post, likes, views, descr, comments, date}) =>
+    render(){
+        /* <my-bar-shorcuts>
+        inicioicon="${inicioicon}"
+        exploraricon="${exploraricon}"
+        mensajesicon="${mensajesicon}"
+        notificacionesicon="${notificacionesicon}"
+        crearicon="${crearicon}"
+        myprofilephoto="${myprofilephoto}"
+        </my-bar-shorcuts> */
+        const compts = data.map (({profph, nickname, post, likes, views, descr, comments, date,
+            inicioicon, exploraricon, mensajesicon, notificacionesicon, crearicon, myprofilephoto}) =>
         `<my-bar-shorcuts>
-
+        
         </my-bar-shorcuts>
         
         <my-bar-status>

@@ -1,10 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navizq{
+    width: 224px;
+}
+
 .colder{
-    background-color: aqua;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.navizq{
-    width: 224px;
+.coll5{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navegador{
+    display: flex;
+    background-color: white;
+    position: relative;
+    width: 310px;
+    height: 100px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+/*
+.story1{
+}
+
+.story2{
+}
+
+.story3{
+}
+
+.story4{
+}*/
+
+.story1ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+.story2phh{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+.story3ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+.story4ph{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-inline: 13px;
+}
+
+.story1p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    /*top:0px;*/
+    height: 12px;/*no me está sirviendo porque el texto sigue apareciendo muy abajo*/
+}
+
+.story2p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    height: 12px;
+}
+
+.story3p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.story4p{
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.colmain{
+    width: 350px;
+    padding: 0px 0px 0px 0px;
 }

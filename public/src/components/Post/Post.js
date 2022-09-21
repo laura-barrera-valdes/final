@@ -24,7 +24,7 @@ class Post extends HTMLElement {
         <link rel="stylesheet" href="/src/components/Post/styles.css">
         <section class="cuadro">
 
-            <div class="vertical">
+            <div class="postinsta">
             
                 <div class="div1">
 

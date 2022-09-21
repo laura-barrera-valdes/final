@@ -20,21 +20,8 @@ class PostContainer extends HTMLElement{
         crearicon="${crearicon}"
         myprofilephoto="${myprofilephoto}"
         </my-bar-shorcuts> */
-        const compts = data.map (({profph, nickname, post, likes, views, descr, comments, date,
-            inicioicon, exploraricon, mensajesicon, notificacionesicon, crearicon, myprofilephoto}) =>
-        `<my-bar-shorcuts>
-        
-        </my-bar-shorcuts>
-        
-        <my-bar-status>
-
-        </my-bar-status>
-
-        <my-bar-info>
-
-        </my-bar-info>
-        
-        <my-post
+        const compts = data.map (({profph, nickname, post, likes, views, descr, comments, date}) =>
+        `<my-post
         profph="${profph}"
         nickname="${nickname}"
         post="${post}"

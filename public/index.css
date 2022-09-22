@@ -9,15 +9,71 @@
 }
 .fixedizq{
     padding: 12px;
+    height: 100%;
 }
+
+.header_logo{
+    width: 220px;
+    height: 81px;
+}
+/*
+.spacebetween{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}*/
+
 .logoinstaph{
     width: 130px;
     padding: 12px;
 }
-.kk{
+.inicioicon{
     margin-block: 8px;
     padding: 12px;
+    width: 55px;
 }
+
+.exploraricon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.mensajesicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.notificacionesicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.crearicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.perfilph{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+
+.masinfoicon{
+    margin-block: 8px;
+    padding: 12px;
+    width: 55px;
+}
+/*
+.header_botones_2{
+    display: flex;
+    align-items: flex-end;
+}*/
 
 .colder{
     width: 100%;
@@ -84,15 +140,12 @@
     color: black;
     font-size: 11px;
     text-align: center;
-    /*top:0px;*/
-    height: 12px;/*no me está sirviendo porque el texto sigue apareciendo muy abajo*/
 }
 
 .story2p{
     color: black;
     font-size: 11px;
     text-align: center;
-    height: 12px;
 }
 
 .story3p{

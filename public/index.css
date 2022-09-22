@@ -24,6 +24,77 @@
     align-content: space-between;
 }*/
 
+.secinicio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iniciotext{
+    padding-inline: 10px;
+}
+
+
+.secexplorar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.explorartext{
+    padding-inline: 10px;
+}
+
+.secmensajes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mensajestext{
+    padding-inline: 10px;
+}
+
+.secnotificaciones{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.notificacionestext{
+    padding-inline: 10px;
+}
+
+.seccrear{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creartext{
+    padding-inline: 10px;
+}
+
+.secperfil{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.perfiltext{
+    padding-inline: 10px;
+}
+
+.header_botones_2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mastext{
+    padding-inline: 10px;
+}
+
 .logoinstaph{
     width: 130px;
     padding: 12px;

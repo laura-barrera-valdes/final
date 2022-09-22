@@ -7,11 +7,23 @@
 .navizq{
     width: 224px;
 }
+.fixedizq{
+    padding: 12px;
+}
+.logoinstaph{
+    width: 130px;
+    padding: 12px;
+}
+.kk{
+    margin-block: 8px;
+    padding: 12px;
+}
 
 .colder{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 15px;
 }
 
 .coll5{
